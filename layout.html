@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GradPilot AI</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Animation -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet"/>
+
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+
+<body class="bg-gray-900 text-white">
+
+<!-- NAVBAR -->
+<nav class="flex justify-between items-center p-6 border-b border-gray-700">
+  <h1 class="text-2xl font-bold text-blue-400">🎓 GradPilot AI</h1>
+  <div class="space-x-4">
+    <button class="hover:text-blue-400">Features</button>
+    <button class="hover:text-blue-400">Architecture</button>
+    <button class="bg-blue-500 px-4 py-2 rounded-lg hover:bg-blue-600">Try Demo</button>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="text-center py-24 px-6" data-aos="fade-up">
+  <h2 class="text-5xl font-bold leading-tight">
+    Autonomous Academic <span class="text-blue-400">Workflow AI</span>
+  </h2>
+  <p class="mt-6 text-gray-400 max-w-2xl mx-auto">
+    Multi-agent system that automates learning, planning, and exam preparation.
+  </p>
+
+  <button class="mt-8 bg-gradient-to-r from-blue-500 to-indigo-500 px-8 py-3 rounded-xl text-lg hover:scale-105 transition">
+    🚀 Launch Demo
+  </button>
+</section>
+
+<!-- CHAT DEMO -->
+<section class="px-10 py-16" data-aos="fade-up">
+  <h3 class="text-3xl font-bold text-center mb-10">AI Interaction</h3>
+
+  <div class="bg-gray-800 rounded-2xl p-6 max-w-2xl mx-auto space-y-4">
+    
+    <div class="bg-blue-500 p-3 rounded-lg w-fit ml-auto">
+      Prepare DBMS in 5 days
+    </div>
+
+    <div class="bg-gray-700 p-4 rounded-lg">
+      <p>📘 Here’s your study plan:</p>
+      <ul class="mt-2 text-sm text-gray-300">
+        <li>• Day 1: Basics + ER Model</li>
+        <li>• Day 2: SQL Queries</li>
+        <li>• Day 3: Normalization</li>
+        <li>• Day 4: Transactions</li>
+        <li>• Day 5: Revision</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="px-10 py-16">
+  <h3 class="text-3xl font-bold text-center mb-12">Multi-Agent System</h3>
+
+  <div class="grid md:grid-cols-5 gap-6 text-center">
+
+    <div class="bg-gray-800 p-5 rounded-xl hover:scale-105 transition">
+      🧠<br>Query Agent
+    </div>
+
+    <div class="bg-gray-800 p-5 rounded-xl hover:scale-105 transition">
+      🔍<br>Retrieval
+    </div>
+
+    <div class="bg-gray-800 p-5 rounded-xl hover:scale-105 transition">
+      ✍️<br>Content
+    </div>
+
+    <div class="bg-gray-800 p-5 rounded-xl hover:scale-105 transition">
+      📅<br>Planner
+    </div>
+
+    <div class="bg-gray-800 p-5 rounded-xl hover:scale-105 transition">
+      ✅<br>Validator
+    </div>
+
+  </div>
+</section>
+
+<!-- ARCHITECTURE FLOW -->
+<section class="px-10 py-16 bg-gray-800" data-aos="fade-up">
+  <h3 class="text-3xl font-bold text-center mb-12">Workflow Architecture</h3>
+
+  <div class="flex flex-wrap justify-center items-center gap-4 text-sm">
+
+    <div class="bg-blue-500 px-4 py-2 rounded-lg">User</div>
+    →
+    <div class="bg-gray-700 px-4 py-2 rounded-lg">Query</div>
+    →
+    <div class="bg-gray-700 px-4 py-2 rounded-lg">Retrieval</div>
+    →
+    <div class="bg-gray-700 px-4 py-2 rounded-lg">LLM</div>
+    →
+    <div class="bg-gray-700 px-4 py-2 rounded-lg">Planner</div>
+    →
+    <div class="bg-green-500 px-4 py-2 rounded-lg">Output</div>
+
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="text-center py-20">
+  <h3 class="text-3xl font-bold">Ready to Transform Learning?</h3>
+  <button class="mt-6 bg-blue-500 px-8 py-3 rounded-xl hover:bg-blue-600">
+    Try GradPilot AI
+  </button>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-6 border-t border-gray-700 text-gray-500">
+  Built for ET GenAI Hackathon 🚀
+</footer>
+
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
